@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+  font-family: "Poppins";
+  font-size: 100%;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+
+
+.desktop-nav a
+{
+  font-size: 1em;
+  font-weight: 300;
+  color: black;
+  text-decoration: none;
+  padding: 0 2% 0 2%;
+}
+
+.mobile-nav
+{
+  display: none;
+}
+
+.introduction
+{
+  margin: 5% 0 0 0;
+  text-align: center;
+}
+
+.introduction-title div
+{
+
+}
+.introduction-portrait img
+{
+  border-radius: 50%;
+  height: 20%; width: 20%;
+}
+
+.introduction-text
+{
+  font-size: 20px;
+  max-width: 500px;
+margin: 0 auto;
+}
+
+.introduction-text h1
+{
+  font-weight: 600;
+}
+
+.introduction-text h2
+{
+  font-weight: 400;
+  margin-top: -7%;
+}
+.introduction-text p
+{
+  margin-top: 0%;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.contact
+{
+  margin: 5% 0 0 0;
+}
+.contact a
+{
+  text-decoration: none;
+  font-size: 2em;
+  margin: 0 2% 0 2%;
+}
+
+.linkedin-logo
+{
+  color: #0c398f;
+}
+.github-logo
+{
+  color: #2c2a2a;
+}
+.email-logo
+{
+  color: #000000;
+}
+
+.about-page
+{
+  margin-top: 15%;
+  justify-content: center;
+  max-width: 800px;
+  margin: 15% auto;
+  font-size: 20px;
+}
+.div-title
+{
+  text-align: center;
+  font-weight: 400;
+}
+.about-page-intro
+{
+  font-weight: 300;
+  text-align: justify;
+}
+
+.tech-stack-title
+{
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10%;
+}
+.tech-stack
+{
+  margin-right: 5%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.tech-stack-list
+{
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+.tech-stack-list-mobile
+{
+  display: none;
+}
+
+.hobbies
+{
+  justify-content: center;
+  margin: 15% 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-weight: 400;
+}
+.hobby
+{
+  text-align: center;
+}
+.hobby-img
+{
+  width: 150px; height: 150px;
+  border-radius: 50%;
+}
+.hobby-title
+{
+  font-weight: 300;
+}
+
+.work-experience
+{
+  margin-top: 15%;
+  justify-content: center;
+  max-width: 800px;
+  margin: 15% auto;
+  font-size: 20px;
+}
+
+.work-experience-list
+{
+  display: inline-block;
+}
+
+.work-experience-list-selector li
+{
+  list-style: none;
+  margin: 20% 40% 0% 0%;
+}
+
+.work-experience-list-selector li button
+{
+  text-decoration: none;
+  background-color: white;
+  border: none;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.work-experience-list
+{
+  display: flex;
+  justify-content: space-between;
+}
+.experience-x
+{
+  width: 90%;
+}
+.at
+{
+  font-weight: 700;
+}
+
+.experience-x h1
+{
+  text-align: center;
+  justify-content: center;
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0 10% 0 10%;
+}
+
+#web-developer
+{
+  display: none;
+}
+
+.project-page
+{
+  margin-top: 15%;
+  justify-content: center;
+  max-width: 800px;
+  margin: 15% auto;
+  font-size: 20px;
+}
+
+#project-1
+{
+  display: none;
+}
+#project-2
+{
+  display: none;
+}
+
+#project-3
+{
+  display: none;
+}
+.fittrack-ss
+{
+  justify-content: center;
+  text-align: center;
+  margin-left: 40%;
+  width: auto;
+  height: 30%;
+}
+
+.twitter-ss
+{
+  justify-content: center;
+  text-align: center;
+  margin-left: 30%;
+  width: auto;
+  height: 25%;
+}
+
+#project-4
+{
+  display: none;
+}
+
+#project-5
+{
+  display: none;
+}
+
+#project-6
+{
+}
+
+.experience-x ul li a
+{
+  text-decoration: none;
+  color: #5d85b4;
+}
+iframe
+{
+  margin-left: 5%;
+  width: 300px; height: 200px;
+}
+
+.footer
+{
+  margin-top: 8%;
+  justify-content: center;
+  text-align: center;
+}
+.footer h3{
+  font-size: 20px;
+  font-weight: 200;
+}
+
+
+@media screen and (max-width: 430px) {
+  .desktop-nav {
+    display: none
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .mobile-nav-hamburger {
+    border: none;
+    background: none;
+    font-size: 60px;
+  }
+
+  .nav-links-mobile {
+    display: none;
+    margin-bottom: 10%;
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+  }
+
+  .nav-links-mobile a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+  }
+
+  .introduction-portrait img {
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+  }
+
+  .introduction-text {
+    max-width: 300px;
+  }
+
+  .contact {
+    margin: 15% 0 0 0;
+  }
+
+  .contact a {
+    margin: 0 5% 0 5%;
+
+  }
+
+  .about-page {
+    margin-top: 50%;
+    max-width: 300px;
+  }
+
+  .tech-stack-title {
+    margin-top: 20%;
+  }
+
+  .tech-stack {
+    display: block;
+    justify-content: center;
+  }
+
+  .tech-stack-list {
+    display: none;
+  }
+
+  .tech-stack-list-mobile {
+    display: block;
+    font-size: 25px;
+    justify-content: center;
+    text-align: justify-all;
+  }
+
+  .tech-stack-list-mobile h3 {
+    font-weight: 300;
+  }
+
+
+  .hobbies {
+    margin-top: 50%;
+    display: block;
+  }
+
+  .hobby-img {
+    width: 150px;
+    height: 150px;
+  }
+
+
+  .work-experience
+  {
+    margin-top: 70%;
+  }
+  .work-experience-list
+  {
+    max-width: 400px;
+  }
+
+  .experience-x
+  {
+    font-size: 15px;
+  }
+
+  .project-page
+  {
+    margin-top: 70%;
+  }
+
+  .fittrack-ss
+  {
+    height: 200px; width: 100px;
+  }
+  .twitter-ss
+  {
+    height: 200px; width: 100px;
+  }
+
+  iframe
+  {
+    width: 150px; height: 100px;
+    margin: 0 0 0 20%;
+  }
+  .footer h3
+  {
+    font-size: 15px;
+  }
+}
