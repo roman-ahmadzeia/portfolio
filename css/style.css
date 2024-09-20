@@ -11,6 +11,11 @@ html
   scroll-behavior: smooth;
 }
 
+button
+{
+  color: black;
+}
+
 
 
 .desktop-nav a
