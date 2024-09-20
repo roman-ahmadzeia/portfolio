@@ -314,6 +314,7 @@ iframe
     background: none;
     font-size: 40px;
     text-align: left;
+    margin: 0; padding: 0;
   }
 
   .nav-links-mobile {
