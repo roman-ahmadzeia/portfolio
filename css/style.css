@@ -319,6 +319,7 @@ iframe
   }
 
   .nav-links-mobile {
+    background-color: rgba(246, 246, 246, 0.75);
     display: none;
     margin-bottom: 10%;
     grid-template-columns: 1fr;
@@ -328,9 +329,10 @@ iframe
   }
 
   .nav-links-mobile a {
+    margin-top: 5%;
     text-decoration: none;
     color: black;
-    font-size: 40px;
+    font-size: 25px;
   }
 
   .introduction-portrait img {
@@ -404,8 +406,9 @@ iframe
 
   .experience-x
   {
-    font-size: 15px;
+    font-size: 13px;
   }
+
 
   .project-page
   {
@@ -432,5 +435,10 @@ iframe
   }
 
   .zeldaMusicBtn {color: black;}
+
+  .work-experience-list-selector ul li button
+  {
+    font-size: 15px;
+  }
 
 }
