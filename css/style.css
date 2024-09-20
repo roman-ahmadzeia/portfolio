@@ -308,6 +308,7 @@ iframe
     border: none;
     background: none;
     font-size: 40px;
+    text-align: left;
   }
 
   .nav-links-mobile {
