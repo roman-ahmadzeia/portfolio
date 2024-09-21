@@ -319,7 +319,6 @@ iframe
   }
 
   .nav-links-mobile {
-    background-color: rgba(246, 246, 246, 0.75);
     display: none;
     margin-bottom: 10%;
     grid-template-columns: 1fr;
