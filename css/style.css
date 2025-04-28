@@ -218,6 +218,11 @@ margin: 0 auto;
   display: none;
 }
 
+#data-specialist
+{
+  display: none;
+}
+
 /*.project-page*/
 /*{*/
 /*  margin-top: 15%;*/
