@@ -1,23 +1,42 @@
 const workButton1 = document.getElementById("data-specialist-button");
 const workButton2 = document.getElementById("web-developer-button");
+const workButton3 = document.getElementById("software-dev-button");
+
 
 const workContent1 = document.getElementById("data-specialist");
 const workContent2 = document.getElementById("web-developer");
+const workContent3 = document.getElementById("software-dev")
 
 workButton1.addEventListener('click', ()=>{
   workButton1.style.color= "black";
   workButton2.style.color= "grey";
+  workButton3.style.color= "grey";
+
 
   workContent1.style.display = "block";
   workContent2.style.display = "none";
+  workContent3.style.display = "none";
 });
 
 workButton2.addEventListener('click', ()=>{
   workButton2.style.color= "black";
   workButton1.style.color= "grey";
+  workButton3.style.color= "grey";
+
 
   workContent1.style.display = "none";
   workContent2.style.display = "block";
+  workContent3.style.display = "none";
+});
+
+workButton3.addEventListener('click', ()=>{
+  workButton3.style.color= "black";
+  workButton1.style.color= "grey";
+  workButton2.style.color="grey";
+
+  workContent3.style.display = "block";
+  workContent1.style.display = "none";
+  workContent2.style.display = "none";
 });
 
 // function showProject(contentid, buttonid)
